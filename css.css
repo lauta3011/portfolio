@@ -1,0 +1,87 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image: linear-gradient(to left, #0b2144, #14366d);
+    font-family: arial;
+}
+
+.contenedor{
+    color:white;
+}
+
+h2{
+    text-align: center;
+    padding: 1%;
+    border-bottom: 1px white solid;
+    background-color: #0b2144;
+}
+
+img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+#menuIzq{
+    position:fixed;
+    padding-top:4%;
+    padding-right :2%;
+    padding-left :2%;
+    padding-bottom :100%;
+    float:left;
+    width:15%;
+    border-right: 1px white solid;  
+    background-color: #0b2144;
+}
+
+.contactos{
+    margin-top: 10%;
+    border-top: 1px white solid;
+}
+
+.contactos div > img{
+    width: 30%;
+    margin-top: 10%;
+    opacity: 0.5;
+}
+
+.contactos div > img:hover{
+    transform: scale(1.05,1.05);
+    opacity: 1;
+    transition: transform 0.2s ;
+}
+
+#info{
+    float: right;
+    width: 81%;
+}
+
+.items{
+    padding-left: 20%;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.item{
+    width: 30%;
+    margin: 2%;
+    padding: 2%;
+    border-radius: 15px;
+    float:left;
+    text-align: center;
+    opacity: 0.5;
+    border: 1px white solid;
+}
+.item > div{
+    border-top: 1px white solid;
+    margin-top:2%;
+}
+
+.item:hover{
+    background-color: #0b2144;
+    transform: scale(1.05,1.05);
+    opacity: 1;
+    transition: transform 0.2s ;
+}
