@@ -1,19 +1,23 @@
 body{
     margin:0px;
     padding:0px;
-    background-image: linear-gradient(to left, #0b2144, #14366d);
+    background-image: linear-gradient(to left,#ff0000,#ffdddd);
     font-family: arial;
 }
 
-.contenedor{
-    color:white;
+h1, h2{
+    text-align: center;
 }
 
+
 h2{
-    text-align: center;
-    padding: 1%;
-    border-bottom: 1px white solid;
-    background-color: #0b2144;
+    color: black;
+}
+
+#info p{
+    padding-top: 5%; 
+    font-size: 25px;
+    line-height: 1.5;
 }
 
 img{
@@ -29,13 +33,10 @@ img{
     padding-bottom :100%;
     float:left;
     width:15%;
-    border-right: 1px white solid;  
-    background-color: #0b2144;
-}
-
-.contactos{
-    margin-top: 10%;
-    border-top: 1px white solid;
+    text-align: center;
+    color:white;
+    border-right: 1px #c92c2c solid;  
+    background-color: #ff0000;
 }
 
 .contactos div > img{
@@ -55,24 +56,33 @@ img{
     width: 81%;
 }
 
-.items{
+.items, .miInfo{
     padding-left: 20%;
+    padding-right: 20%;
+    overflow: hidden;
+    text-align: center; 
+    background-image: linear-gradient(to left, #ffdddd, white); 
 }
 
-a{
-    text-decoration: none;
-    color:white;
+.botones div{
+    border-top: 1px white solid;
+    padding:2%;
+}
+
+.botones div:hover{
+    background-color: white;
+    color:#ff0000;
 }
 
 .item{
-    width: 30%;
+    width: 40%;
     margin: 2%;
     padding: 2%;
     border-radius: 15px;
     float:left;
     text-align: center;
     opacity: 0.5;
-    border: 1px white solid;
+    border: 1px black solid;
 }
 .item > div{
     border-top: 1px white solid;
@@ -80,8 +90,10 @@ a{
 }
 
 .item:hover{
-    background-color: #0b2144;
+    background-color: #e52929;
     transform: scale(1.05,1.05);
     opacity: 1;
+    color:white;
+    border: 1px white solid;
     transition: transform 0.2s ;
 }
